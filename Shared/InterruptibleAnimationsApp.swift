@@ -12,6 +12,7 @@ struct InterruptibleAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(idealWidth: 128, idealHeight: 128)
         }
     }
 }
