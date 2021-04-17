@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA466B28262B25C000082AFE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B27262B25C000082AFE /* Tests_iOS.swift */; };
 		BA466B33262B25C000082AFE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B32262B25C000082AFE /* Tests_macOS.swift */; };
-		BA466B35262B25C000082AFE /* InterruptibleAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0C262B25C000082AFE /* InterruptibleAnimationsApp.swift */; };
-		BA466B36262B25C000082AFE /* InterruptibleAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0C262B25C000082AFE /* InterruptibleAnimationsApp.swift */; };
+		BA466B35262B25C000082AFE /* SharedViewModelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0C262B25C000082AFE /* SharedViewModelsApp.swift */; };
+		BA466B36262B25C000082AFE /* SharedViewModelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0C262B25C000082AFE /* SharedViewModelsApp.swift */; };
 		BA466B37262B25C000082AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0D262B25C000082AFE /* ContentView.swift */; };
 		BA466B38262B25C000082AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA466B0D262B25C000082AFE /* ContentView.swift */; };
 		BA466B39262B25C000082AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA466B0E262B25C000082AFE /* Assets.xcassets */; };
@@ -40,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA466B0C262B25C000082AFE /* InterruptibleAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterruptibleAnimationsApp.swift; sourceTree = "<group>"; };
+		BA466B0C262B25C000082AFE /* SharedViewModelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewModelsApp.swift; sourceTree = "<group>"; };
 		BA466B0D262B25C000082AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA466B0E262B25C000082AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA466B13262B25C000082AFE /* InterruptibleAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterruptibleAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA466B13262B25C000082AFE /* SharedViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedViewModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA466B16262B25C000082AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA466B1B262B25C000082AFE /* InterruptibleAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterruptibleAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA466B1B262B25C000082AFE /* SharedViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedViewModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA466B1D262B25C000082AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA466B1E262B25C000082AFE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BA466B23262B25C000082AFE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +106,7 @@
 		BA466B0B262B25C000082AFE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				BA466B0C262B25C000082AFE /* InterruptibleAnimationsApp.swift */,
+				BA466B0C262B25C000082AFE /* SharedViewModelsApp.swift */,
 				BA466B0D262B25C000082AFE /* ContentView.swift */,
 				BA466B7B262B2E2D00082AFE /* ExampleView.swift */,
 				BA466B53262B268100082AFE /* ExampleViewModel.swift */,
@@ -118,8 +118,8 @@
 		BA466B14262B25C000082AFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA466B13262B25C000082AFE /* InterruptibleAnimations.app */,
-				BA466B1B262B25C000082AFE /* InterruptibleAnimations.app */,
+				BA466B13262B25C000082AFE /* SharedViewModels.app */,
+				BA466B1B262B25C000082AFE /* SharedViewModels.app */,
 				BA466B23262B25C000082AFE /* Tests iOS.xctest */,
 				BA466B2E262B25C000082AFE /* Tests macOS.xctest */,
 			);
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA466B12262B25C000082AFE /* InterruptibleAnimations (iOS) */ = {
+		BA466B12262B25C000082AFE /* SharedViewModels (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA466B3D262B25C000082AFE /* Build configuration list for PBXNativeTarget "InterruptibleAnimations (iOS)" */;
+			buildConfigurationList = BA466B3D262B25C000082AFE /* Build configuration list for PBXNativeTarget "SharedViewModels (iOS)" */;
 			buildPhases = (
 				BA466B0F262B25C000082AFE /* Sources */,
 				BA466B10262B25C000082AFE /* Frameworks */,
@@ -177,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = "InterruptibleAnimations (iOS)";
+			name = "SharedViewModels (iOS)";
 			productName = "InterruptibleAnimations (iOS)";
-			productReference = BA466B13262B25C000082AFE /* InterruptibleAnimations.app */;
+			productReference = BA466B13262B25C000082AFE /* SharedViewModels.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA466B1A262B25C000082AFE /* InterruptibleAnimations (macOS) */ = {
+		BA466B1A262B25C000082AFE /* SharedViewModels (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA466B40262B25C000082AFE /* Build configuration list for PBXNativeTarget "InterruptibleAnimations (macOS)" */;
+			buildConfigurationList = BA466B40262B25C000082AFE /* Build configuration list for PBXNativeTarget "SharedViewModels (macOS)" */;
 			buildPhases = (
 				BA466B17262B25C000082AFE /* Sources */,
 				BA466B18262B25C000082AFE /* Frameworks */,
@@ -194,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = "InterruptibleAnimations (macOS)";
+			name = "SharedViewModels (macOS)";
 			productName = "InterruptibleAnimations (macOS)";
-			productReference = BA466B1B262B25C000082AFE /* InterruptibleAnimations.app */;
+			productReference = BA466B1B262B25C000082AFE /* SharedViewModels.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BA466B22262B25C000082AFE /* Tests iOS */ = {
@@ -260,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA466B0A262B25BF00082AFE /* Build configuration list for PBXProject "InterruptibleAnimations" */;
+			buildConfigurationList = BA466B0A262B25BF00082AFE /* Build configuration list for PBXProject "SharedViewModels" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,8 +273,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA466B12262B25C000082AFE /* InterruptibleAnimations (iOS) */,
-				BA466B1A262B25C000082AFE /* InterruptibleAnimations (macOS) */,
+				BA466B12262B25C000082AFE /* SharedViewModels (iOS) */,
+				BA466B1A262B25C000082AFE /* SharedViewModels (macOS) */,
 				BA466B22262B25C000082AFE /* Tests iOS */,
 				BA466B2D262B25C000082AFE /* Tests macOS */,
 			);
@@ -321,7 +321,7 @@
 			files = (
 				BA466B37262B25C000082AFE /* ContentView.swift in Sources */,
 				BA466B6B262B28F900082AFE /* ExampleViewModel.swift in Sources */,
-				BA466B35262B25C000082AFE /* InterruptibleAnimationsApp.swift in Sources */,
+				BA466B35262B25C000082AFE /* SharedViewModelsApp.swift in Sources */,
 				BA466B4E262B25ED00082AFE /* ExampleViewController.swift in Sources */,
 				BA466B7C262B2E2D00082AFE /* ExampleView.swift in Sources */,
 			);
@@ -333,7 +333,7 @@
 			files = (
 				BA466B38262B25C000082AFE /* ContentView.swift in Sources */,
 				BA466B66262B28F800082AFE /* ExampleViewModel.swift in Sources */,
-				BA466B36262B25C000082AFE /* InterruptibleAnimationsApp.swift in Sources */,
+				BA466B36262B25C000082AFE /* SharedViewModelsApp.swift in Sources */,
 				BA466B7D262B2E2D00082AFE /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,12 +359,12 @@
 /* Begin PBXTargetDependency section */
 		BA466B25262B25C000082AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA466B12262B25C000082AFE /* InterruptibleAnimations (iOS) */;
+			target = BA466B12262B25C000082AFE /* SharedViewModels (iOS) */;
 			targetProxy = BA466B24262B25C000082AFE /* PBXContainerItemProxy */;
 		};
 		BA466B30262B25C000082AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA466B1A262B25C000082AFE /* InterruptibleAnimations (macOS) */;
+			target = BA466B1A262B25C000082AFE /* SharedViewModels (macOS) */;
 			targetProxy = BA466B2F262B25C000082AFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedsoftware.InterruptibleAnimations;
-				PRODUCT_NAME = InterruptibleAnimations;
+				PRODUCT_NAME = SharedViewModels;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,7 +518,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedsoftware.InterruptibleAnimations;
-				PRODUCT_NAME = InterruptibleAnimations;
+				PRODUCT_NAME = SharedViewModels;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,7 +544,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedsoftware.InterruptibleAnimations;
-				PRODUCT_NAME = InterruptibleAnimations;
+				PRODUCT_NAME = SharedViewModels;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -568,7 +568,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lefthandedsoftware.InterruptibleAnimations;
-				PRODUCT_NAME = InterruptibleAnimations;
+				PRODUCT_NAME = SharedViewModels;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -666,7 +666,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA466B0A262B25BF00082AFE /* Build configuration list for PBXProject "InterruptibleAnimations" */ = {
+		BA466B0A262B25BF00082AFE /* Build configuration list for PBXProject "SharedViewModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA466B3B262B25C000082AFE /* Debug */,
@@ -675,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA466B3D262B25C000082AFE /* Build configuration list for PBXNativeTarget "InterruptibleAnimations (iOS)" */ = {
+		BA466B3D262B25C000082AFE /* Build configuration list for PBXNativeTarget "SharedViewModels (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA466B3E262B25C000082AFE /* Debug */,
@@ -684,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA466B40262B25C000082AFE /* Build configuration list for PBXNativeTarget "InterruptibleAnimations (macOS)" */ = {
+		BA466B40262B25C000082AFE /* Build configuration list for PBXNativeTarget "SharedViewModels (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA466B41262B25C000082AFE /* Debug */,
