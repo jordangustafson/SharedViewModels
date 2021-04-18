@@ -26,7 +26,7 @@ struct ExampleVCView<ViewModel: ExampleViewModel>: UIViewControllerRepresentable
     }
 }
 
-/// UIKit implementation of the `ExampleView`
+/// `UIKit` implementation of the `ExampleView`
 final class ExampleViewController<ViewModel: ExampleViewModel>: UIViewController {
     
     private let viewModel: ViewModel

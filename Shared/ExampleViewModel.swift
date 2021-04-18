@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// Defines a type that the provides the data need to render the `ExampleView`
+/// Defines a type that provides the data need to render the `ExampleView`
 protocol ExampleViewModel: ObservableObject {
     /// The position of the square
     var position: ExampleViewModels.Position { get }
@@ -32,9 +32,10 @@ struct ExampleViewModels {
 //MARK: - Default Implementation
 
 final class DefaultExampleViewModel: ExampleViewModel {
+    typealias Position = ExampleViewModels.Position
     
-    @Published var position: ExampleViewModels.Position = .leading
-    var positionPublisher: Published<ExampleViewModels.Position>.Publisher {
+    @Published var position: Position = .leading
+    var positionPublisher: Published<Position>.Publisher {
         $position
     }
     
@@ -55,7 +56,7 @@ final class DefaultExampleViewModel: ExampleViewModel {
         }
     }
     
-    private func buttonText(for position: ExampleViewModels.Position) -> String {
+    private func buttonText(for position: Position) -> String {
         switch position {
         case .leading:
             return "Move Right"
