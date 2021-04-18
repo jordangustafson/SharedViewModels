@@ -48,18 +48,13 @@ struct ExampleView<ViewModel: ExampleViewModel>: View {
     @ViewBuilder
     private func blockView() -> some View {
         HStack {
-            switch viewModel.position {
-            case .leading:
-                Color.red
-                    .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .matchedGeometryEffect(id: "Block", in: animation)
-                    
+            if viewModel.position == .trailing {
                 Spacer()
-            case .trailing:
+            }
+            Color.red
+                .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            if viewModel.position == .leading {
                 Spacer()
-                Color.red
-                    .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .matchedGeometryEffect(id: "Block", in: animation)
             }
         }
     }
