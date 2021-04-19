@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA466B12262B25C000082AFE"
+               BlueprintIdentifier = "BA466B1A262B25C000082AFE"
                BuildableName = "SharedViewModels.app"
-               BlueprintName = "SharedViewModels (iOS)"
+               BlueprintName = "SharedViewModels (macOS)"
                ReferencedContainer = "container:SharedViewModels.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA466B22262B25C000082AFE"
-               BuildableName = "Tests iOS.xctest"
-               BlueprintName = "Tests iOS"
+               BlueprintIdentifier = "BA466B2D262B25C000082AFE"
+               BuildableName = "Tests macOS.xctest"
+               BlueprintName = "Tests macOS"
                ReferencedContainer = "container:SharedViewModels.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -54,9 +54,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BA466B12262B25C000082AFE"
+            BlueprintIdentifier = "BA466B1A262B25C000082AFE"
             BuildableName = "SharedViewModels.app"
-            BlueprintName = "SharedViewModels (iOS)"
+            BlueprintName = "SharedViewModels (macOS)"
             ReferencedContainer = "container:SharedViewModels.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,9 +71,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BA466B12262B25C000082AFE"
+            BlueprintIdentifier = "BA466B1A262B25C000082AFE"
             BuildableName = "SharedViewModels.app"
-            BlueprintName = "SharedViewModels (iOS)"
+            BlueprintName = "SharedViewModels (macOS)"
             ReferencedContainer = "container:SharedViewModels.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
