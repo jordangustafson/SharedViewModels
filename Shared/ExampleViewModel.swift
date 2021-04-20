@@ -5,6 +5,7 @@
 //  Created by Jordan Gustafson on 4/17/21.
 //
 
+import Combine
 import SwiftUI
 
 /// Defines a type that provides the data need to render the `ExampleView`
@@ -12,11 +13,11 @@ protocol ExampleViewModel: ObservableObject {
     /// The position of the square
     var position: ExampleViewModels.Position { get }
     /// Publisher for the project position
-    var positionPublisher: Published<ExampleViewModels.Position>.Publisher { get }
+    var positionPublisher: AnyPublisher<ExampleViewModels.Position, Never> { get }
     /// The text to display in the button
     var buttonText: String { get }
     /// Publisher for the button text
-    var buttonTextPublisher: Published<String>.Publisher { get }
+    var buttonTextPublisher: AnyPublisher<String, Never> { get }
     /// Toggles the position of the square
     func togglePosition()
 }
@@ -35,13 +36,13 @@ final class DefaultExampleViewModel: ExampleViewModel {
     typealias Position = ExampleViewModels.Position
     
     @Published var position: Position = .leading
-    var positionPublisher: Published<Position>.Publisher {
-        $position
+    var positionPublisher: AnyPublisher<ExampleViewModels.Position, Never> {
+        $position.eraseToAnyPublisher()
     }
     
     @Published var buttonText: String = "Move Right"
-    var buttonTextPublisher: Published<String>.Publisher {
-        $buttonText
+    var buttonTextPublisher: AnyPublisher<String, Never> {
+        $buttonText.eraseToAnyPublisher()
     }
     
     func togglePosition() {
